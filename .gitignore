@@ -1,0 +1,55 @@
+# Ignore our build output folder
+/build
+
+# Ignore lib/bin/obj in output
+#lib
+bin
+obj
+*.obj
+Debug
+
+# Ignore
+*.wav
+
+# Ignore Visual studio files
+*.vs
+*.suo
+*.user
+
+# Ignore packages
+*.msi
+
+# Ignore NuGet stuff (from https://docs.microsoft.com/en-us/nuget/consume-packages/packages-and-source-control)
+*.nupkg
+
+**/[Gg]enerated [Ff]iles/*
+*.pdb
+*.ilk
+*.metagen
+
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Ignore other intermediate files that NuGet might create. project.lock.json is used in conjunction
+# with project.json (NuGet v3); project.assets.json is used in conjunction with the PackageReference
+# format (NuGet v4 and .NET Core).
+project.lock.json
+project.assets.json
+compileData.scor
+compileData.scor.incl
+compileData.scor.t0000
+*.t0001
+*.aps
+*.xbf
+*.snupkg
+

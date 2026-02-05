@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="mp4_parsing/mp4_parsing.vcxproj" Id="26819280-196b-4f18-82cc-66848524dc4c" />
+</Solution>
