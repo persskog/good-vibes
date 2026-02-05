@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch mp4_parsing (Debug x64)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}\\..\\build\\x64\\Debug\\mp4_parsing\\bin\\mp4_parsing.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "preLaunchTask": "msbuild: Debug x64",
+      "console": "integratedTerminal"
+    }
+  ]
+}
